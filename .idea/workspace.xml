@@ -14,7 +14,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1ZIOpt2zpTx8mVNjTmiJH7NUi7s" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -25,51 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.decision_tree_new">
-    <configuration name="bayes_complete" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lihang_book_algorithm-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/贝叶斯代码补全" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/贝叶斯代码补全/bayes_complete.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="binary_perceptron" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="lihang_book_algorithm-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lihang_book/perceptron" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lihang_book/perceptron/binary_perceptron.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.svm-作业 (1)">
     <configuration name="decision_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lihang_book_algorithm-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -136,13 +96,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="svm-作业 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lihang_book_algorithm-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/svm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/svm/svm-作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="svm-作业" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="lihang_book_algorithm-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/svm" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:\桌面\课件\大三下\机器学习\lihang_book_algorithm-master\作业\svm\svm-作业.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.svm-作业 (1)" />
+        <item itemvalue="Python.svm-作业一-补全" />
         <item itemvalue="Python.decision_tree_new" />
         <item itemvalue="Python.decision_tree_old" />
         <item itemvalue="Python.decision_tree" />
-        <item itemvalue="Python.binary_perceptron" />
-        <item itemvalue="Python.bayes_complete" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +163,9 @@
       <workItem from="1584523341785" duration="9129000" />
       <workItem from="1584596040772" duration="6532000" />
       <workItem from="1584609554658" duration="5970000" />
+      <workItem from="1584886862708" duration="50000" />
+      <workItem from="1585731682769" duration="826000" />
+      <workItem from="1586856006977" duration="8043000" />
     </task>
     <servers />
   </component>
@@ -166,32 +173,59 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1431" height="223" key="GridCell.Tab.0.bottom" timestamp="1584621477018">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1585731727004">
+      <screen x="0" y="0" width="1471" height="864" />
     </state>
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1471.864@0.0.1471.864" timestamp="1585731727004" />
+    <state width="966" height="223" key="GridCell.Tab.0.bottom" timestamp="1586868121265">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="966" height="223" key="GridCell.Tab.0.bottom/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
     <state width="1431" height="223" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1584621477018" />
-    <state width="1431" height="223" key="GridCell.Tab.0.center" timestamp="1584621477018">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="966" height="223" key="GridCell.Tab.0.center" timestamp="1586868121265">
+      <screen x="0" y="0" width="1471" height="864" />
     </state>
+    <state width="966" height="223" key="GridCell.Tab.0.center/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
     <state width="1431" height="223" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1584621477018" />
-    <state width="1431" height="223" key="GridCell.Tab.0.left" timestamp="1584621477017">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="966" height="223" key="GridCell.Tab.0.left" timestamp="1586868121265">
+      <screen x="0" y="0" width="1471" height="864" />
     </state>
+    <state width="966" height="223" key="GridCell.Tab.0.left/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
     <state width="1431" height="223" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1584621477017" />
-    <state width="1431" height="223" key="GridCell.Tab.0.right" timestamp="1584621477018">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="966" height="223" key="GridCell.Tab.0.right" timestamp="1586868121265">
+      <screen x="0" y="0" width="1471" height="864" />
     </state>
+    <state width="966" height="223" key="GridCell.Tab.0.right/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
     <state width="1431" height="223" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1584621477018" />
-    <state x="335" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1584609560982">
-      <screen x="0" y="0" width="1474" height="864" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1586866010919">
+      <screen x="0" y="0" width="1471" height="864" />
     </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/0.0.1471.864@0.0.1471.864" timestamp="1586866010919" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1586866010918">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.center/0.0.1471.864@0.0.1471.864" timestamp="1586866010918" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1586866010918">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.left/0.0.1471.864@0.0.1471.864" timestamp="1586866010918" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1586866010919">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state width="1429" height="277" key="GridCell.Tab.1.right/0.0.1471.864@0.0.1471.864" timestamp="1586866010919" />
+    <state x="334" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586856006545">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="334" y="350" key="com.intellij.ide.util.TipDialog/0.0.1471.864@0.0.1471.864" timestamp="1586856006545" />
     <state x="335" y="350" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1584609560982" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$bayes_incomplete.coverage" NAME="bayes_incomplete Coverage Results" MODIFIED="1584544247173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/贝叶斯代码补全" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$svm___1_.coverage" NAME="svm-作业 (1) Coverage Results" MODIFIED="1586868121254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/svm" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1584543525509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/感知机改对偶" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$decision_tree_new.coverage" NAME="decision_tree_new Coverage Results" MODIFIED="1584621257405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/决策树" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$bayes_complete.coverage" NAME="bayes_complete Coverage Results" MODIFIED="1584599033879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/贝叶斯代码补全" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$svm__.coverage" NAME="svm-作业一-补全 Coverage Results" MODIFIED="1586863672238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/svm" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$decision_tree.coverage" NAME="decision_tree Coverage Results" MODIFIED="1584609989435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/decision_tree" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1584596421721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/naive_bayes" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$binary_perceptron.coverage" NAME="binary_perceptron Coverage Results" MODIFIED="1584609972803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/perceptron" />
