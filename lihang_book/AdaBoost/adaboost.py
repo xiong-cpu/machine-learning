@@ -12,7 +12,7 @@ import logging
 import numpy as np
 import pandas as pd
 
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 sign_time_count = 0
@@ -33,7 +33,7 @@ class Sign(object):
         self.X = features               # 训练数据特征
         self.Y = labels                 # 训练数据的标签
         self.N = len(labels)            # 训练数据大小
-
+        print("self.N",self.N)
         self.w = w                      # 训练数据权值分布
 
         self.indexes = [0,1,2]          # 阈值轴可选范围
@@ -48,8 +48,8 @@ class Sign(object):
 
         for i in self.indexes:
             score = 0
-            for j in xrange(self.N):
-                val = -1
+            for j in range(self.N):
+                val = -11
                 if self.X[j]<i:
                     val = 1
 
@@ -74,13 +74,13 @@ class Sign(object):
 
         for i in self.indexes:
             score = 0
-            for j in xrange(self.N):
+            for j in range(self.N):
                 val = 1
                 if self.X[j]<i:
                     val = -1
 
                 if val*self.Y[j]<0:
-                    score += self.w[j]
+                     score += self.w[j]
 
             if score < error_score:
                 index = i
@@ -129,7 +129,9 @@ class AdaBoost(object):
         self.Y = labels                             # 训练集标签
 
         self.n = len(features[0])                   # 特征维度
+        print("ADABOST self.n is ", self.n)
         self.N = len(features)                      # 训练集大小
+        print("ADABOST self.N is ",self.N)
         self.M = 10                                 # 分类器数目
 
         self.w = [1.0/self.N]*self.N                # 训练集的权值分布
@@ -150,7 +152,7 @@ class AdaBoost(object):
 
         Z = 0
 
-        for i in xrange(self.N):
+        for i in range(self.N):
             Z += self._w_(index,classifier,i)
 
         return Z
@@ -159,14 +161,14 @@ class AdaBoost(object):
 
         self._init_parameters_(features,labels)
 
-        for times in xrange(self.M):
+        for times in range(self.M):
             logging.debug('iterater %d' % times)
 
             time1 = time.time()
             map_time = 0
 
             best_classifier = (100000,None,None)        #(误差率,针对的特征，分类器)
-            for i in xrange(self.n):
+            for i in range(self.n):
                 map_time -= time.time()
                 features = map(lambda x:x[i],self.X)
                 map_time += time.time()
@@ -179,10 +181,10 @@ class AdaBoost(object):
             em = best_classifier[0]
 
             # 分析用，之后删除 开始
-            print 'em is %s, index is %d' % (str(em),best_classifier[1])
+            print ('em is %s, index is %d' % (str(em),best_classifier[1]))
             time2 = time.time()
             global sign_time_count
-            print '总运行时间:%s, 那两段关键代码运行时间:%s, map的时间是:%s' % (str(time2-time1),str(sign_time_count),str(map_time))
+            print ('总运行时间:%s, 那两段关键代码运行时间:%s, map的时间是:%s' % (str(time2-time1),str(sign_time_count),str(map_time)))
             sign_time_count = 0
             # 分析用，之后删除  结束
 
@@ -196,13 +198,13 @@ class AdaBoost(object):
             Z = self._Z_(best_classifier[1],best_classifier[2])
 
             # 计算训练集权值分布 8.4
-            for i in xrange(self.N):
+            for i in range(self.N):
                 self.w[i] = self._w_(best_classifier[1],best_classifier[2],i)/Z
 
     def _predict_(self,feature):
 
         result = 0.0
-        for i in xrange(self.M):
+        for i in range(self.M):
             index = self.classifier[i][0]
             classifier = self.classifier[i][1]
 
@@ -225,7 +227,7 @@ class AdaBoost(object):
 # 二值化
 def binaryzation(img):
     cv_img = img.astype(np.uint8)
-    cv2.threshold(cv_img,50,1,cv2.cv.CV_THRESH_BINARY_INV,cv_img)
+    cv2.threshold(cv_img,50,1,cv2.THRESH_BINARY_INV,cv_img)
     return cv_img
 
 def binaryzation_features(trainset):
@@ -248,13 +250,13 @@ if __name__ == '__main__':
     logger = logging.getLogger()
     logger.setLevel(logging.DEBUG)
 
-    print 'Start read data'
+    print ('Start read data')
 
     time_1 = time.time()
 
     raw_data = pd.read_csv('../data/train_binary.csv',header=0)
     data = raw_data.values
-
+    print("data is ",data)
     imgs = data[0::,1::]
     labels = data[::,0]
 
@@ -264,21 +266,25 @@ if __name__ == '__main__':
     train_features, test_features, train_labels, test_labels = train_test_split(features, labels, test_size=0.5, random_state=0)
 
     time_2 = time.time()
-    print 'read data cost ',time_2 - time_1,' second','\n'
+    print ('read data cost ',time_2 - time_1,' second','\n')
 
-    print 'Start training'
-    train_labels = map(lambda x:2*x-1,train_labels)
+    print ('Start training')
+    train_labels = list(map(lambda x:2*x-1,train_labels))
+    print("train_features is ", train_features)
+    print("train_labels is",train_labels)
     ada = AdaBoost()
-    ada.train(train_features, train_labels)
+
+    ada.train(list(train_features), list(train_labels))
+
 
     time_3 = time.time()
-    print 'training cost ',time_3 - time_2,' second','\n'
+    print ('training cost ',time_3 - time_2,' second','\n')
 
-    print 'Start predicting'
+    print ('Start predicting')
     test_predict = ada.predict(test_features)
     time_4 = time.time()
-    print 'predicting cost ',time_4 - time_3,' second','\n'
+    print ('predicting cost ',time_4 - time_3,' second','\n')
 
-    test_labels = map(lambda x:2*x-1,test_labels)
+    test_labels = list(map(lambda x:2*x-1,test_labels))
     score = accuracy_score(test_labels,test_predict)
-    print "The accruacy socre is ", score
+    print ("The accruacy socre is ", score)

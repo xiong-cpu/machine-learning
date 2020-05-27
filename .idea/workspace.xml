@@ -29,8 +29,13 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Python.svm-作业 (1)">
-    <configuration name="decision_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\桌面\课件\大三下\机器学习\lihang_book_algorithm-master\作业\集成学习两个作业\用adaboost实现iris数据集分类" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.hmm">
+    <configuration name="adaboost for iris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lihang_book_algorithm-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -38,12 +43,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lihang_book/decision_tree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lihang_book/decision_tree/decision_tree.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类/adaboost for iris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -52,7 +57,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decision_tree_new" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="adaboost" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lihang_book_algorithm-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -60,12 +65,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/lihang_book/AdaBoost" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/决策树/decision_tree_new.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/lihang_book/AdaBoost/adaboost.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +79,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="decision_tree_old" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="adabppst for iris" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lihang_book_algorithm-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,12 +87,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/决策树" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/决策树/decision_tree_old.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类/adabppst for iris.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -96,7 +101,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svm-作业 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hmm" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lihang_book_algorithm-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -104,12 +109,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/svm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/HMM" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/svm/svm-作业.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/HMM/hmm.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -118,7 +123,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="svm-作业" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="huqinglong" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="lihang_book_algorithm-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -126,12 +131,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/svm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\桌面\课件\大三下\机器学习\lihang_book_algorithm-master\作业\svm\svm-作业.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类/huqinglong.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -142,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.svm-作业 (1)" />
-        <item itemvalue="Python.svm-作业一-补全" />
-        <item itemvalue="Python.decision_tree_new" />
-        <item itemvalue="Python.decision_tree_old" />
-        <item itemvalue="Python.decision_tree" />
+        <item itemvalue="Python.hmm" />
+        <item itemvalue="Python.adaboost for iris" />
+        <item itemvalue="Python.adaboost" />
+        <item itemvalue="Python.huqinglong" />
+        <item itemvalue="Python.adabppst for iris" />
       </list>
     </recent_temporary>
   </component>
@@ -165,7 +170,22 @@
       <workItem from="1584609554658" duration="5970000" />
       <workItem from="1584886862708" duration="50000" />
       <workItem from="1585731682769" duration="826000" />
-      <workItem from="1586856006977" duration="8043000" />
+      <workItem from="1586856006977" duration="8651000" />
+      <workItem from="1587086033798" duration="927000" />
+      <workItem from="1587867291517" duration="26772000" />
+      <workItem from="1587972269448" duration="20698000" />
+      <workItem from="1588041080350" duration="18957000" />
+      <workItem from="1588317092616" duration="3217000" />
+      <workItem from="1588669347582" duration="3142000" />
+      <workItem from="1588739281462" duration="29596000" />
+      <workItem from="1588913473559" duration="3074000" />
+      <workItem from="1589011865973" duration="13942000" />
+      <workItem from="1589077671573" duration="24022000" />
+      <workItem from="1589159102831" duration="13608000" />
+      <workItem from="1590074551571" duration="982000" />
+      <workItem from="1590113475678" duration="185000" />
+      <workItem from="1590463771902" duration="368000" />
+      <workItem from="1590474863725" duration="27735000" />
     </task>
     <servers />
   </component>
@@ -173,62 +193,107 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1585731727004">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state x="186" y="284" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1590562645476">
+      <screen x="0" y="0" width="1472" height="864" />
+    </state>
+    <state x="186" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1471.864@0.0.1471.864" timestamp="1587869237202" />
+    <state x="186" y="284" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590562645476" />
+    <state x="517" y="187" key="FileChooserDialogImpl" timestamp="1590074665025">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
     <state x="517" y="187" key="FileChooserDialogImpl/0.0.1471.864@0.0.1471.864" timestamp="1585731727004" />
-    <state width="966" height="223" key="GridCell.Tab.0.bottom" timestamp="1586868121265">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state x="517" y="187" key="FileChooserDialogImpl/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590074665025" />
+    <state width="1373" height="210" key="GridCell.Tab.0.bottom" timestamp="1590571304864">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="966" height="223" key="GridCell.Tab.0.bottom/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
+    <state width="1234" height="180" key="GridCell.Tab.0.bottom/0.0.1471.864@0.0.1471.864" timestamp="1588087058496" />
+    <state width="1373" height="210" key="GridCell.Tab.0.bottom/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590571304864" />
+    <state width="1429" height="186" key="GridCell.Tab.0.bottom/0.0.1472.864@0.0.1472.864" timestamp="1589198147368" />
     <state width="1431" height="223" key="GridCell.Tab.0.bottom/0.0.1474.864@0.0.1474.864" timestamp="1584621477018" />
-    <state width="966" height="223" key="GridCell.Tab.0.center" timestamp="1586868121265">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1373" height="210" key="GridCell.Tab.0.center" timestamp="1590571304864">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="966" height="223" key="GridCell.Tab.0.center/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
+    <state width="1234" height="180" key="GridCell.Tab.0.center/0.0.1471.864@0.0.1471.864" timestamp="1588087058496" />
+    <state width="1373" height="210" key="GridCell.Tab.0.center/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590571304864" />
+    <state width="1429" height="186" key="GridCell.Tab.0.center/0.0.1472.864@0.0.1472.864" timestamp="1589198147368" />
     <state width="1431" height="223" key="GridCell.Tab.0.center/0.0.1474.864@0.0.1474.864" timestamp="1584621477018" />
-    <state width="966" height="223" key="GridCell.Tab.0.left" timestamp="1586868121265">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1373" height="210" key="GridCell.Tab.0.left" timestamp="1590571304863">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="966" height="223" key="GridCell.Tab.0.left/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
+    <state width="1234" height="180" key="GridCell.Tab.0.left/0.0.1471.864@0.0.1471.864" timestamp="1588087058496" />
+    <state width="1373" height="210" key="GridCell.Tab.0.left/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590571304863" />
+    <state width="1429" height="186" key="GridCell.Tab.0.left/0.0.1472.864@0.0.1472.864" timestamp="1589198147368" />
     <state width="1431" height="223" key="GridCell.Tab.0.left/0.0.1474.864@0.0.1474.864" timestamp="1584621477017" />
-    <state width="966" height="223" key="GridCell.Tab.0.right" timestamp="1586868121265">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1373" height="210" key="GridCell.Tab.0.right" timestamp="1590571304864">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="966" height="223" key="GridCell.Tab.0.right/0.0.1471.864@0.0.1471.864" timestamp="1586868121265" />
+    <state width="1234" height="180" key="GridCell.Tab.0.right/0.0.1471.864@0.0.1471.864" timestamp="1588087058496" />
+    <state width="1373" height="210" key="GridCell.Tab.0.right/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590571304864" />
+    <state width="1429" height="186" key="GridCell.Tab.0.right/0.0.1472.864@0.0.1472.864" timestamp="1589198147368" />
     <state width="1431" height="223" key="GridCell.Tab.0.right/0.0.1474.864@0.0.1474.864" timestamp="1584621477018" />
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom" timestamp="1586866010919">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1429" height="276" key="GridCell.Tab.1.bottom" timestamp="1589040929067">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.bottom/0.0.1471.864@0.0.1471.864" timestamp="1586866010919" />
-    <state width="1429" height="277" key="GridCell.Tab.1.center" timestamp="1586866010918">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1429" height="277" key="GridCell.Tab.1.bottom/0.0.1471.864@0.0.1471.864" timestamp="1586870063498" />
+    <state width="1429" height="276" key="GridCell.Tab.1.bottom/0.0.1472.864@0.0.1472.864" timestamp="1589040929067" />
+    <state width="1429" height="276" key="GridCell.Tab.1.center" timestamp="1589040929067">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.center/0.0.1471.864@0.0.1471.864" timestamp="1586866010918" />
-    <state width="1429" height="277" key="GridCell.Tab.1.left" timestamp="1586866010918">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1429" height="277" key="GridCell.Tab.1.center/0.0.1471.864@0.0.1471.864" timestamp="1586870063498" />
+    <state width="1429" height="276" key="GridCell.Tab.1.center/0.0.1472.864@0.0.1472.864" timestamp="1589040929067" />
+    <state width="1429" height="276" key="GridCell.Tab.1.left" timestamp="1589040929067">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.left/0.0.1471.864@0.0.1471.864" timestamp="1586866010918" />
-    <state width="1429" height="277" key="GridCell.Tab.1.right" timestamp="1586866010919">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1429" height="277" key="GridCell.Tab.1.left/0.0.1471.864@0.0.1471.864" timestamp="1586870063498" />
+    <state width="1429" height="276" key="GridCell.Tab.1.left/0.0.1472.864@0.0.1472.864" timestamp="1589040929067" />
+    <state width="1429" height="276" key="GridCell.Tab.1.right" timestamp="1589040929067">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state width="1429" height="277" key="GridCell.Tab.1.right/0.0.1471.864@0.0.1471.864" timestamp="1586866010919" />
-    <state x="334" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1586856006545">
-      <screen x="0" y="0" width="1471" height="864" />
+    <state width="1429" height="277" key="GridCell.Tab.1.right/0.0.1471.864@0.0.1471.864" timestamp="1586870063498" />
+    <state width="1429" height="276" key="GridCell.Tab.1.right/0.0.1472.864@0.0.1472.864" timestamp="1589040929067" />
+    <state x="334" y="350" key="com.intellij.ide.util.TipDialog" timestamp="1590074551605">
+      <screen x="0" y="0" width="1472" height="864" />
     </state>
-    <state x="334" y="350" key="com.intellij.ide.util.TipDialog/0.0.1471.864@0.0.1471.864" timestamp="1586856006545" />
+    <state x="334" y="350" key="com.intellij.ide.util.TipDialog/0.0.1471.864@0.0.1471.864" timestamp="1588317095456" />
+    <state x="334" y="350" key="com.intellij.ide.util.TipDialog/0.0.1472.864/1920.0.1280.680@0.0.1472.864" timestamp="1590074551605" />
+    <state x="334" y="350" key="com.intellij.ide.util.TipDialog/0.0.1472.864@0.0.1472.864" timestamp="1589159115260" />
     <state x="335" y="350" key="com.intellij.ide.util.TipDialog/0.0.1474.864@0.0.1474.864" timestamp="1584609560982" />
+    <state x="403" y="63" width="642" height="801" key="find.popup" timestamp="1587873451391">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="403" y="63" width="642" height="801" key="find.popup/0.0.1471.864@0.0.1471.864" timestamp="1587873451391" />
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1587891092449">
+      <screen x="0" y="0" width="1471" height="864" />
+    </state>
+    <state x="399" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1471.864@0.0.1471.864" timestamp="1587891092449" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$bayes_incomplete.coverage" NAME="bayes_incomplete Coverage Results" MODIFIED="1584544247173" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/贝叶斯代码补全" />
-    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$svm___1_.coverage" NAME="svm-作业 (1) Coverage Results" MODIFIED="1586868121254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/svm" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$perceptron.coverage" NAME="perceptron Coverage Results" MODIFIED="1584543525509" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/感知机改对偶" />
-    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$decision_tree_new.coverage" NAME="decision_tree_new Coverage Results" MODIFIED="1584621257405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/决策树" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$Iris_Adaboost.coverage" NAME="Iris_Adaboost Coverage Results" MODIFIED="1587973400046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$bayes_complete.coverage" NAME="bayes_complete Coverage Results" MODIFIED="1584599033879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/贝叶斯代码补全" />
-    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$svm__.coverage" NAME="svm-作业一-补全 Coverage Results" MODIFIED="1586863672238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/svm" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$decision_tree.coverage" NAME="decision_tree Coverage Results" MODIFIED="1584609989435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/decision_tree" />
-    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1584596421721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/naive_bayes" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$binary_perceptron.coverage" NAME="binary_perceptron Coverage Results" MODIFIED="1584609972803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/perceptron" />
     <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$decision_tree_old.coverage" NAME="decision_tree_old Coverage Results" MODIFIED="1584621222971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/决策树" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$svm___1_.coverage" NAME="svm-作业 (1) Coverage Results" MODIFIED="1586868121254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/svm" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$huqinglong.coverage" NAME="huqinglong Coverage Results" MODIFIED="1589168907801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$decision_tree_new.coverage" NAME="decision_tree_new Coverage Results" MODIFIED="1584621257405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/决策树" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$svm__.coverage" NAME="svm-作业一-补全 Coverage Results" MODIFIED="1586863672238" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/svm" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$hmm.coverage" NAME="hmm Coverage Results" MODIFIED="1590494033287" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/HMM" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$naive_bayes.coverage" NAME="naive_bayes Coverage Results" MODIFIED="1584596421721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/naive_bayes" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$adaboost_for_iris.coverage" NAME="adaboost for iris Coverage Results" MODIFIED="1590479481923" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$adabppst_for_iris.coverage" NAME="adabppst for iris Coverage Results" MODIFIED="1589084752966" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/作业/集成学习两个作业/用adaboost实现iris数据集分类" />
+    <SUITE FILE_PATH="coverage/lihang_book_algorithm_master$adaboost.coverage" NAME="adaboost Coverage Results" MODIFIED="1589168998091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/lihang_book/AdaBoost" />
   </component>
 </project>

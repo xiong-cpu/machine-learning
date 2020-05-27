@@ -1,8 +1,8 @@
 #encoding=utf-8
 #改为C4.5算法
 #description :仅在函数第一百四十行做了修改，将信息增益改为信息增益比
-
-
+#17 人工智能与机器人 熊荐辕
+#201700171089
 
 import cv2
 import time

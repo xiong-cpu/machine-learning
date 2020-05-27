@@ -11,7 +11,7 @@ debug = debugger.Pdb().set_trace
 
 #%matplotlib inline
 
-
+# @author：  熊荐辕   学号：201700171089
 # 问题描述：实现SVM的SMO优化算法，训练给定数据集，并测试和可视化结果。对比与sklearn科学计算工具包的svm方法效果。
 
 

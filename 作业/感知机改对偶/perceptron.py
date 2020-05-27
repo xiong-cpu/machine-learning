@@ -5,7 +5,7 @@
 # @Last modified by:   WenDesi
 # @Last modified time: 08-11-16
 
-# @author：  熊荐辕
+# @author：  熊荐辕   学号：201700171089
 # @description:  此代码为本人参考上面原文链接修改训练算法为对偶形式而来
 
 import pandas as pd
